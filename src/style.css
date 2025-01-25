@@ -1,13 +1,25 @@
 @import "tailwindcss";
 
-:root {
+@theme {
+  --font-display: "Satoshi", "sans-serif";
+  --breakpoint-3xl: 1920px;
+  --color-primary: #CC2D4A;
+  --color-secondary: #8FA206;
+	--color-tertiary: #61AEC9;
+  --color-white: #ffffff;  
+  --color-avocado-500: oklch(0.84 0.18 117.33);
+  --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
+  --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+}
+
+:root {  
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: white;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,15 +27,74 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+.bg-primary {
+  background-color: var(--color-primary);
 }
 
+/*Images*/
+.bg-sanFranciscoDesktop{
+  background-image: url('./src/assets/images/sanFranciscoDesktop.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-norway{
+  background-image: url('./src/assets/images/norway.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-new_york{
+  background-image: url('./src/assets/images/new_york.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-yosemite{
+  background-image: url('./src/assets/images/yosemite.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-seattle{
+  background-image: url('./src/assets/images/seattle.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-chicago{
+  background-image: url('./src/assets/images/chicago.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-LA{
+  background-image: url('./src/assets/images/LA.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-miami{
+  background-image: url('./src/assets/images/miami.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-bali{
+  background-image: url('./src/assets/images/bali.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.Card{
+  @apply w-48 h-64 shadow-md rounded-lg;
+}
+
+.CardTitle{
+  @apply text-3xl px-8 pt-8 pb-1 font-semibold text-white;
+}
+
+/*
 body {
   margin: 0;
   display: flex;
@@ -32,11 +103,10 @@ body {
   min-height: 100vh;
 }
 
-/*
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
-}*/
+}
 
 button {
   border-radius: 8px;
@@ -67,16 +137,18 @@ button:focus-visible {
   padding: 2rem;
   text-align: center;
 }
-
+*/
+/*
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: var(--color-tertiary);
   }
   button {
     background-color: #f9f9f9;
   }
 }
+*/

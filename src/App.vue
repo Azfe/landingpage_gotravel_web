@@ -1,19 +1,23 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Navbar from './components/Navbar.vue'
+import Home from './components/Home.vue'
+import OurRecomendations from './components/OurRecomendations.vue'
+import TrendingStays from './components/TrendingStays.vue'
+import FAQs from './components/FAQs.vue';
+import FooterLanding from './components/FooterLanding.vue';
 
 </script>
 
 <template>
-  <h1 class="text-5xl font-bold underline">
-    Hello world!
-  </h1>
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+
+  <Navbar></Navbar>
+
+  <!--Content-->
+  <section class="w-full h-auto">
+    <Home></Home>
+    <OurRecomendations></OurRecomendations>
+    <TrendingStays></TrendingStays>
+    <FAQs></FAQs>
+  </section>
+  <FooterLanding></FooterLanding>  
 </template>
