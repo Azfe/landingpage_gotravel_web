@@ -19,7 +19,7 @@
             <p class="text-sm text-gray-500 hover:text-tertiary">Go travel, inc.</p>
         </a>
         
-            <h4 class="text-xl text-gray-500 ">Sobre nosotros</h4>        
+        <h4 class="text-xl text-gray-500 mt-3">Sobre nosotros</h4>        
         <a href="#">
             <p class="text-sm text-gray-500 hover:text-tertiary">Quiénes somos</p>
         </a>
@@ -35,7 +35,7 @@
         <a href="#">
             <p class="text-sm text-gray-500 hover:text-tertiary">Síguenos</p>
         </a>
-        <h4 class="text-xl text-gray-500">Conecta con nosotros</h4>
+        <h4 class="text-xl text-gray-500 mt-3">Conecta con nosotros</h4>
         <div class="w-full h-full flex flex-row space-x-2 items-center">
             <a href="#" class="text-gray-500 hover:text-tertiary cursor-pointer">                
                 <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="25px" height="25px" fill="currentColor">
