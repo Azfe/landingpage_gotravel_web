@@ -11,6 +11,12 @@
     const success = ref(false);
     const isVisible = ref(false);
 
+    // Simular acceso a una sección restringida
+    const simulateRestrictedAccess = () => {
+        // Redirigir a la página de inicio        
+        window.location.href = '/dashboard';  
+    }
+
     // Método para iniciar sesión
     const login = async () => {
         // Validación campos
@@ -25,7 +31,7 @@
             success.value = false;
             return;
         }
-        
+
         try {
             const response = await fetch('https://reqres.in/api/login', {
                 method: 'POST',
@@ -40,8 +46,12 @@
 
             const data = await response.json();
             if (response.ok) {
+                // Se almacena el token en el localStorage
+                localStorage.setItem('authToken', data.token);
                 message.value = 'Login exitoso!';
                 success.value = true;
+                // Se simula acceso a una sección restringida
+                simulateRestrictedAccess();
             } else {
                 if (data.error === 'user not found') {
                     message.value = 'Usuario no encontrado.';
