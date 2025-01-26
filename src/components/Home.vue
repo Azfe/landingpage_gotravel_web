@@ -3,7 +3,6 @@
 </script>
 
 <template>
-    <!--Home-->
     <div id="home">
             <div class="w-full h-3/4">
                 <div class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center lg:space-y-0 lg:items-start lg:justify-start lg:pt-[11rem]">
@@ -18,7 +17,7 @@
                     </button>
                 </div>
                 <div class="w-full h-full bg-cover lg:h-[36rem] lg:bg-cover bg-sanFranciscoDesktop lg:bg-center">
-                    <img class="w-full h-full lg:hidden" src="./src/assets/images/sanFrancisco.jpg" alt="San Francisco">
+                    <img class="w-full h-full lg:hidden" src="../assets/images/sanFrancisco.jpg" alt="San Francisco">
                 </div>                
             </div>
         </div>

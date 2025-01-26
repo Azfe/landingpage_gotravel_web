@@ -7,33 +7,33 @@
     <footer id="footer" class="w-full h-auto bg-gray-100 p-6 mt-8 pb-20 space-y-2 lg:px-14">
         <h4 class="text-xl text-gray-500">Legal</h4>
         <a href="#">
-            <p class="text-sm text-gray-500">Aviso legal</p>
+            <p class="text-sm text-gray-500 hover:text-tertiary">Aviso legal</p>
         </a>
         <a href="#">
-            <p class="text-sm text-gray-500">Política de privacidad</p>
+            <p class="text-sm text-gray-500 hover:text-tertiary">Política de privacidad</p>
         </a>
         <a href="#">
-            <p class="text-sm text-gray-500">Terminos y condiciones</p>
+            <p class="text-sm text-gray-500 hover:text-tertiary">Terminos y condiciones</p>
         </a>
         <a href="#">
-            <p class="text-sm text-gray-500">Go travel, inc.</p>
+            <p class="text-sm text-gray-500 hover:text-tertiary">Go travel, inc.</p>
         </a>
         
-            <h4 class="text-xl text-gray-500">Sobre nosotros</h4>        
+            <h4 class="text-xl text-gray-500 ">Sobre nosotros</h4>        
         <a href="#">
-            <p class="text-sm text-gray-500">Quiénes somos</p>
+            <p class="text-sm text-gray-500 hover:text-tertiary">Quiénes somos</p>
         </a>
         <a href="#">
-            <p class="text-sm text-gray-500">Guías de viajes</p>
+            <p class="text-sm text-gray-500 hover:text-tertiary">Guías de viajes</p>
         </a>
         <a href="#">
-            <p class="text-sm text-gray-500">Contacto</p>
+            <p class="text-sm text-gray-500 hover:text-tertiary">Contacto</p>
         </a>
         <a href="#">
-            <p class="text-sm text-gray-500">Trabaja con nosotros</p>
+            <p class="text-sm text-gray-500 hover:text-tertiary">Trabaja con nosotros</p>
         </a>
         <a href="#">
-            <p class="text-sm text-gray-500">Síguenos</p>
+            <p class="text-sm text-gray-500 hover:text-tertiary">Síguenos</p>
         </a>
         <h4 class="text-xl text-gray-500">Conecta con nosotros</h4>
         <div class="w-full h-full flex flex-row space-x-2 items-center">

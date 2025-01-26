@@ -8,7 +8,7 @@ import CardRecomendation from './CardRecomendation.vue';
             <h2 class="text-3xl font-semibold text-primary">Recomendaciones</h2>
             <div class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-4 lg:space-x-6 overflow-y-hidden">
                 <!-- Cards -->
-                <div class="w-48 h-64 shadow-md rounded-lg">
+                <div class="Card">
                     <div class="w-full h-3/5 rounded-t-lg bg-norway bg-cover"></div>
                     <div class="w-full h-2/5 bg-secondary rounded-b-lg">
                         <p class="text-white text-bold text-xl px-4 py-2">Noruega</p>
@@ -36,12 +36,8 @@ import CardRecomendation from './CardRecomendation.vue';
                         <p class="text-tertiary text-md px-4">La ciudad esmeralda</p>
                     </div>
                 </div>
-
-
-
             </div>
     </div>
-
 </template>
 
 <style>

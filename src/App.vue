@@ -5,6 +5,7 @@ import OurRecomendations from './components/OurRecomendations.vue'
 import TrendingStays from './components/TrendingStays.vue'
 import FAQs from './components/FAQs.vue';
 import FooterLanding from './components/FooterLanding.vue';
+import TabbarMobile from './components/TabbarMobile.vue';
 
 </script>
 
@@ -19,5 +20,6 @@ import FooterLanding from './components/FooterLanding.vue';
     <TrendingStays></TrendingStays>
     <FAQs></FAQs>
   </section>
-  <FooterLanding></FooterLanding>  
+  <FooterLanding></FooterLanding> 
+  <TabbarMobile />
 </template>
