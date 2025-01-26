@@ -10,7 +10,6 @@
     // Método para recuperar la contraseña
     const recoverPassword = async () => {
     try {
-        // Aquí se puede hacer la llamada a la API para recuperar la contraseña
         message.value = 'Se ha enviado un correo para recuperar tu contraseña.';
         success.value = true;
     } catch (error) {
@@ -101,4 +100,3 @@
         </div>
     </div>
 </template>
-

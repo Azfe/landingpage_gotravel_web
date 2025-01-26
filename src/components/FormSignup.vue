@@ -25,7 +25,6 @@
     }
 
     try {
-      // Aquí puedes hacer la llamada a la API para registrar al usuario
       message.value = 'Registro exitoso!';
       success.value = true;
     } catch (error) {
